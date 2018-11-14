@@ -1,0 +1,198 @@
+body {
+    background-image: url("background-textures/fabric_plaid/fabric_plaid.png");
+    margin:0;
+}
+
+a:link {
+    text-decoration:none;
+    color: #363636;
+}
+a:visited {
+    text-decoration:none;
+    color: #363636;
+}
+
+a:hover {
+    opacity: 0.5;
+}
+
+.nest_container {
+    width: 1160px;
+    margin: 0 auto;
+    padding: 0 20px 20px 20px;
+}
+
+.nest_nav {
+    padding-top: 20px;
+    position: relative;
+}
+
+.nest_logo {
+   height: 65px; 
+}
+
+.nest_nav-links {
+font-size: 20px;
+position: absolute;
+top: 35px; 
+left: 150px; 
+}
+
+
+.nest_nav-links a {
+    margin-right: 15px;
+
+}
+
+.nest_social {
+    color: #A9A9A9;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    text-align: right;
+}
+
+.nest_utility a {
+    color: #A9A9A9;
+    font-size:14px;
+    text-transform: uppercase;
+}
+
+.social-button {
+    height: 20px;
+    width: 20px;
+}
+
+.project-slider_container {
+    position:relative;
+    margin-top: 25px;
+  
+}
+
+.project-slider{
+    height: 350px;
+    background-color: #A0A0A0;
+    border-style: solid;
+    border-color: white;
+    border-width: 10px;
+}
+
+.project-slider_info-bar{
+    height: 35px;
+    width: 98.25%;
+    margin-bottom: 10px;
+    background-color: #484848;
+    background-blend-mode: multiply;
+    position: absolute;
+    bottom: 0;
+    text-align: right;
+    color: white;
+}
+
+.project-slider_info-bar p{
+    margin-bottom: 10px;
+}
+
+.nest-description {
+    display: flex;
+    justify-content: center;
+}
+
+.recent-post_container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+#pic1, #pic2, #pic3, #pic4, #pic5, #pic6, #pic7, #pic8, #pic9, #pic10, #pic11, #pic12{
+    height: 150px; 
+    width: 275px;
+    background-color: #484848;
+    margin: 7px 7px 7px 7px;
+}
+.view-more_container{
+    height: 100px;
+}
+
+.view-more_button{
+    height: 30px;
+    width: 150px;
+    background-color: lightgrey;
+    background-image: url("background-textures/az_subtle/az_subtle.png");
+    background-blend-mode: multiply;
+    position: center;
+}
+
+.view-more_button p{
+    color: white;
+    position: center;
+}
+
+.something-big_toolbar {
+    height: 50px;
+    background-color: #686868;
+}
+
+.something-big_toolbar img {
+    height: 15px;
+}
+
+.something-big_toolbar p {
+    color: white;
+}
+
+.nest-footer {
+    height: 200px;
+    background-color: lightgrey;
+    background-image: url("background-textures/az_subtle/az_subtle.png");
+    background-blend-mode: multiply;
+}
+
+
+
+
+/* EVERYTHING BELOW IS FOR STUDENT PAGE*/
+
+.student-slider_container {
+    position:relative;
+    margin-top: 25px;
+  
+}
+
+.student-slider{
+    height: 350px;
+    width: 66%;
+    background-color: #A0A0A0;
+    border-style: solid;
+    border-color: white;
+    border-width: 10px;
+}
+
+.student-slider_info-bar{
+    height: 35px;
+    width: 66%;
+    margin-bottom: 10px;
+    background-color: #484848;
+    background-blend-mode: multiply;
+    position: absolute;
+    bottom: 0;
+    text-align: right;
+    color: white;
+}
+
+.student-slider_info-bar p{
+    margin-bottom: 10px;
+}
+
+.student-info_container{
+    background-color: white;
+    height: 150px;
+    width: 200px;
+}
+
+.student-image{
+    background-color: #484848;
+    height: 60px;
+    width: 60px;
+}
